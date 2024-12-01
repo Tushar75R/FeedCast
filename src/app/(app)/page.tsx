@@ -1,5 +1,3 @@
-import { BackgroundGradient } from "@/components/ui/background-gradient";
-
 const page = () => {
   return (
     <>

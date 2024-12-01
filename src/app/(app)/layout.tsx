@@ -1,6 +1,5 @@
 import { NavbarDemo } from "@/components/Navbar";
 import { AuroraBackground } from "@/components/ui/aurora-background";
-import { Meteors } from "@/components/ui/meteors";
 
 interface RootLayoutProps {
   children: React.ReactNode;

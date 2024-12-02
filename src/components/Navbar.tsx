@@ -52,6 +52,12 @@ const Navbar = ({ className }: { className?: string }) => {
                 src="https://images.unsplash.com/photo-1611944212129-29977ae1398c"
                 description="Mr. Vavdiya Tushar"
               />
+              <ProductItem
+                title="LinkedIn"
+                href="https://www.linkedin.com/in/sanket-akbari/"
+                src="https://images.unsplash.com/photo-1611944212129-29977ae1398c"
+                description="Mr. Sanket Akbari"
+              />
             </div>
           </MenuItem>
           {session ? (

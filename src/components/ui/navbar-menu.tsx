@@ -99,9 +99,9 @@ export const ProductItem = ({
       <Image
         src={src}
         width={80}
-        height={20}
+        height={10}
         alt={"[Image]"}
-        className="flex-shrink-0 rounded-md shadow-2xl"
+        className="flex-shrink-0 rounded-md shadow-2xl p-2"
       />
       <div className="flex flex-col justify-center items-center">
         <h4 className="text-xl font-bold mb-1 text-white">{title}</h4>

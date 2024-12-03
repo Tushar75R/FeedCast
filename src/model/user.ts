@@ -59,7 +59,6 @@ export interface User {
   verifyCode: string;
   verifyCodeExpiry: Date;
   isVerified: boolean;
-  isAcceptingMessage: boolean;
   messages: Message[];
   urls: Url[];
 }
@@ -93,10 +92,6 @@ const UserSchema: Schema<User> = new Schema({
     required: [true, "verify code is required"],
   },
   isVerified: {
-    type: Boolean,
-    default: false,
-  },
-  isAcceptingMessage: {
     type: Boolean,
     default: false,
   },
